@@ -91,6 +91,7 @@ def loadFileData(filename):
         traceback.print_stack()
         return None
 
+#@pysnooper.snoop(prefix='\n[generateWordList]\t',thread_info=True)
 def generateWordList(filename):
     word_list=[]
     tempList=[]    
