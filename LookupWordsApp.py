@@ -103,13 +103,14 @@ def generateWordList(filename):
     
     for word in tempList:
         word = word.replace("\n", "").replace("\t", " ").replace("\r", "").replace("  "," ").strip()
-        word_list.append(word)
+        if(len(word)):
+            word_list.append(word)
     
-    if(len(word_list)): 
-        print(f"\n\t  [Info]: {len(word_list)} words loaded! \n")
+    print(f"\n\t  [Info]: {len(word_list)} words loaded! \n")
+    
+    if(len(word_list)):         
         return word_list
     else: 
-        print(f"\n\t  [Info]: {len(word_list)} words loaded! \n")
         return None    
     
 #@pysnooper.snoop(prefix='\n[lookupword]\t',thread_info=True)
