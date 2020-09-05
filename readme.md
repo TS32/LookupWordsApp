@@ -14,3 +14,47 @@ pip3 install -r requirements.txt
 
 
 (note: it's ony tested in win10+python3.8)
+
+## How to run ##
+
+```Console logs
+
+LookupWordsApp> & C:/Python38/python.exe "c:/python/LookupWordsApp/LookupWordsApp.py"
+
+[Info]: -Run on Windows-
+
+[Info]: Current script absolute filename c:\python\LookupWordsApp\LookupWordsApp.py
+
+[Info]: Current script absolute root path c:\python\LookupWordsApp
+
+[Info]: Input folder path c:\python\LookupWordsApp\input
+
+[Info]: Output folder path c:\python\LookupWordsApp\output
+
+
+fileLoader found 1 files (totalFileSize=1 KB) with pattern [.txt] in folder c:\python\LookupWordsApp\input
+
+Start 1 files jobs from input folder c:\python\LookupWordsApp\input
+
+
+Delete c:\python\LookupWordsApp\output directory!
+
+
+Create c:\python\LookupWordsApp\output directory!
+
+
+          [Info]: file c:\python\LookupWordsApp\input\Top 3000 US English Words.txt encoding type is ascii
+
+
+          [Info]: 152 words loaded!
+
+Lookup words: 100%|██████████████████████████████████████████████████████████████████| 152/152 [00:56<00:00,  2.69words/s] 
+
+Vocabulary translation document c:\python\LookupWordsApp\output\Top 3000 US English Words.docx generated successfully!
+
+
+Done! 1 files processed successfully! 
+
+```
+
+Look at the docx file in 'output' folder to understand the result format. 
