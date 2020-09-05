@@ -4,13 +4,13 @@
 
 ## Purpose ##
 
-This script file provide read all the files in the "input" folder, then try to get all the words in those files, generate wordlist, lookup the pos and acceptations, example sentences and genrate a word document for each text file. it's effecient if you have a lot of words to translate.
-
+This script file reads all the txt files in the "input" folder, then try to get all the English words in those files, generate a wordlist, lookup every word from the internet , get the pos and acceptations, example sentences and genrate a word document for each text file contains all these information. it's effecient if you have a lot of words to translate.
 
 ## Requirements ##
 
-In order to run this scripts, Python3.6+ is needed. and use the requirements.txt to install the requested libraries.
-Only tested in Window10 (with python3.7)
+In order to run this scripts, Python3.6+ is needed. and use the requirements.txt to install the requested libraries, following the commands:
 
 pip3 install -r requirements.txt
 
+
+(note: it's ony tested in win10+python3.8)
