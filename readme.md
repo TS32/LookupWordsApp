@@ -1,10 +1,12 @@
 # Lookup English words in the text files and generate word document contains the explanations/sentences examples #
 
-娃的英语作业中有一项是完成单词表查词，每次的词语很多，如果一个个查，费时费力。所以写了这个脚本，从脚本所在的目录下的input目录中，读取txt文件中要查的词（txt文件中每行一个单词或者短语）。然后调用金山词霸的查词接口，获取查词结果和例句。结果以表格的方式放在output目录下的word文档里。
+James同学的英语作业中有一项是英语课外阅读，每周完成worksheet中生词查词，每次的词语很多，如果一个个翻字典，费时费力效率不高。所以写了这个脚本，这个脚本在所在的目录下的input目录中，读取txt文件中要查的词（txt文件中每行一个生词或者短语）。然后调用网上的的API查词接口，获取查词结果包括音标，词性和单词解释以及例句。结果以表格的方式放在output目录下的word文档里。
 
 ## Purpose ##
 
 This script file reads all the txt files in the "input" folder, then try to get all the English words in those files, generate a wordlist, lookup every word from the internet , get the pos and acceptations, example sentences and genrate a word document for each text file contains all these information. it's effecient if you have a lot of words to translate.
+
+Note：Each txt file will get one document file, multiple txt file will be loaded in parallel with multi-task mode to save time. 
 
 ## Requirements ##
 
