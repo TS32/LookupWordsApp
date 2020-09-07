@@ -1,6 +1,6 @@
 # Lookup English words in the text files and generate word document contains the explanations/sentences examples #
 
-James同学的英语作业中有一项是英语课外阅读，每周完成worksheet中生词查词，每次的词语很多，如果一个个翻字典，费时费力效率不高。所以写了这个脚本，这个脚本在所在的目录下的input目录中，读取txt文件中要查的词（txt文件中每行一个生词或者短语）。然后调用网上的的API查词接口，获取查词结果包括音标，词性和单词解释以及例句。结果以表格的方式放在output目录下的word文档里。
+这个脚本在所在的目录下的input目录中，读取txt文件中要查的词（txt文件中每行一个生词或者短语）。然后调用网上的的API查词接口，获取查词结果包括音标，词性和单词解释以及例句。结果以表格的方式放在output目录下的word文档里。
 
 ## Purpose ##
 
